@@ -3,7 +3,9 @@ var cors = require('cors');
 var mongoose = require('mongoose');
 const ControllerArticles = require('./controllers/c_articles');
 
-mongoose.connect('mongodb://localhost/blog');
+mongoose.connect('mongodb://Admin:575886@ds037415.mlab.com:37415/blogs-mbb', () => {
+    console.log('App is connected to database Blogs')
+});
 
 const app = express();
 
