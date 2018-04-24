@@ -1,0 +1,87 @@
+/* =============================BODY CSS============================= */
+.blogs {
+    /* border: 1px solid orange;  */
+    background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+    float:left;
+    width:100%;
+    padding : 50px 0;
+    margin: 50px 0;
+    display: flex;
+}
+
+.blogs-container {
+    background:#fff;
+    border-radius: 10px;
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+    margin: 50px 0;
+    align-self: center;
+}
+
+.blogs-header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blogs-header-inner {
+    margin-bottom:10px;
+    font-weight:800;
+    font-size:50px;
+    color: #DE6262;
+}
+
+.blogs-header-inner:after {
+    content:" ";
+    width:250px;
+    height:5px;
+    background:#FEB58A;
+    display:block;
+    margin-top:10px;
+    border-radius:3px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+
+.blogs-body {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogs-body-inner-left {
+    /* border: 1px solid blue; */
+    border-right: 1px solid gainsboro;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.articles-box-side {
+    /* border: 1px solid black; */
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articles-box-main {
+    /* border: 1px solid black; */
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles-item {
+    /* border: 1px solid greenyellow; */
+    align-self: center;
+    text-align: justify;
+}
+
+.jumbotron {
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    /* border-radius: 0.3rem; */
+}
+
