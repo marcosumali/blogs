@@ -18,8 +18,8 @@ app.use('/articles', require('./routes/articles'))
 // app.get('/articles/get', ControllerArticles.get);
 
 // TO CHECK CONNECTION EXPRESS
-app.listen('3000', () => {
-    console.log('App is listening on port 3000')
+app.listen('80', () => {
+    console.log('App is listening on port 80')
 })
 
 
