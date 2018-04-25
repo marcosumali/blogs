@@ -35,7 +35,7 @@ export default {
     getArticles () {
     //   console.log('masuk blog')
       let self = this
-      axios.get('http://localhost:3000/articles/')
+      axios.get('http://blogs-server.madebybastian.com/articles/')
         .then(function (response) {
           console.log(response)
           self.articlesList = response.data.articles
