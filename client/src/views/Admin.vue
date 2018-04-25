@@ -61,7 +61,7 @@ export default {
       } else {
 
         let self = this
-        axios.post('http://localhost:3000/articles/save', obj)
+        axios.post('http://blogs-server.madebybastian.com/articles/save', obj)
         .then(function (response) {
           console.log(response);
           self.poststatus = 'Your post has been successfully posted !'

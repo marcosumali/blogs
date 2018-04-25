@@ -32,7 +32,7 @@ export default {
   methods: {
   getArticle () {
     let self = this
-    axios.get('http://localhost:3000/articles/')
+    axios.get('http://blogs-server.madebybastian.com/articles/')
       .then(function (response) {
         // console.log('ini response',response.data.articles)
         response.data.articles.forEach(result => {
